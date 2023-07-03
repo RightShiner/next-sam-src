@@ -1,0 +1,140 @@
+//@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: "kumbhSans";
+  src: url("/fonts/KumbhSans-Regular.ttf") format("truetype");
+}
+
+html body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'kumbhSans',sans-serif !important;
+}
+
+.menuItem {
+  font-weight: bold !important;
+  transition: all .2s ease-in-out !important;
+  color: #989898 !important;
+
+  &:hover {
+    color: black !important;
+  }
+
+  .menuItemDetails {
+    font-weight: 500 !important;
+  }
+}
+
+.footerItem {
+  color: hsla(0,0%,98%,.4) !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  font-size: 16px !important;
+  transition: all .2s ease-in-out !important;
+  &:hover {
+    color: hsla(0,0%,98%,.8) !important;
+  }
+}
+
+.mgr5 {
+  margin-right: 5px !important;
+}
+
+.mgr10 {
+  margin-right: 10px !important;
+}
+
+.mgt5 {
+  margin-top: 5px !important;
+}
+
+.mgt10 {
+  margin-top: 10px !important;
+}
+
+.mgt15 {
+  margin-top: 15px !important;
+}
+
+.mgt20 {
+  margin-top: 20px !important;
+}
+
+.mgl5 {
+  margin-left: 5px !important;
+}
+
+.mgl10 {
+  margin-left: 10px !important;
+}
+
+.mgb5 {
+  margin-bottom: 5px !important;
+}
+
+.mgb10 {
+  margin-bottom: 10px !important;
+}
+
+button {
+  border-radius: 1px !important;
+}
+
+.round-info {
+  line-height: 0;
+  svg {
+    circle {
+      fill: white;
+    }
+
+    .i, .outline {
+      fill: #333;
+    }
+
+    &:Hover {
+      circle {
+        fill: #333
+      }
+
+      .i {
+        fill: white
+      }
+    }
+  }
+}
+
+.btn-pagination-go {
+  background-color: #ffffff !important;
+  border-radius: 4px !important;
+  border: 1px solid rgba(0, 0, 0, 0.23) !important;
+}
+
+.btn-pagination-go:hover {
+  color: #ffffff !important;
+  background-color: #16acf3 !important;
+  border-color: #16acf3 !important;
+}
+
+.MuiPagination-ul button {
+  height: 34px !important;
+  padding-top: 0.25rem;
+  color: #2d3748 !important;
+  font-size: 17px;
+  border-radius: 4px !important;
+  border: 1px solid transparent !important;
+}
+
+.MuiPagination-ul button:hover {
+  background-color: #ffffff !important;
+  color: #16acf3 !important;
+  border-color: #16acf3 !important;
+}
+
+.MuiPagination-ul button.Mui-selected {
+  background-color: #16acf3 !important;
+  color: #ffffff !important;
+  border-color: #16acf3;
+}
